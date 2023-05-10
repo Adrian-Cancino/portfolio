@@ -40,6 +40,11 @@ export const Navbar = () => {
                     Work
                 </Link>
             </li>
+            <li>
+                <Link to='projects' smooth={true} duration={500}>
+                    Projects
+                </Link>
+            </li>
         </ul>
 
         {/* Hamburguer */}
@@ -69,6 +74,11 @@ export const Navbar = () => {
                         Work
                     </Link>
                 </li>
+                <li className='py-6 text-4xl'>
+                    <Link to='projects' smooth={true} duration={500}>
+                        Projects
+                    </Link>
+                </li>
             </ul>
 
         {/* Social Icons */}
@@ -86,11 +96,10 @@ export const Navbar = () => {
                         GitHub <FaGithub size={30}/>
                     </a>
                 </li>
-                <li className='w-[260px] h-[60px] flex justify-between items-center ml-[-200px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-                    <a className='flex justify-between items-center w-full text-gray-300 text-2xl'
-                    href="/">
+                <li className='w-[260px] h-[60px] flex justify-between items-center ml-[-200px] hover:ml-[-10px] duration-300 bg-[#345750]'>
+                    <p className='flex justify-between items-center w-full text-gray-300 text-xl'>
                         luis@cancino.net <HiOutlineMail size={30}/>
-                    </a>
+                    </p>
                 </li>
                 {/*<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                     <a className='flex justify-between items-center w-full text-gray-300'

@@ -1,4 +1,4 @@
-import JavaScript from '../assets/selfie.jpg';
+import Selfie from '../assets/selfie.jpg';
 
 export const About = () => {
   return (
@@ -22,7 +22,7 @@ export const About = () => {
               or as a database administrator, please contact me.</p>
           </div>
           <div className='hover:scale-110 duration-500'>
-              <img src={JavaScript} alt="JavaScript" className='w-80 mx-auto'/>
+              <img src={Selfie} alt="JavaScript" className='w-72 mx-auto'/>
           </div>
         </div>
 

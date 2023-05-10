@@ -11,6 +11,9 @@ import Typescript from '../assets/typescript.png';
 import Angular from '../assets/angular.png';
 import Bitbucket from '../assets/bitbucket.svg';
 import Azure from '../assets/azure.png';
+import PHP from '../assets/php.png';
+import Laravel from '../assets/laravel.png';
+
 
 export const Skills = () => {
   return (
@@ -24,6 +27,10 @@ export const Skills = () => {
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img src={JavaScript} alt="JavaScript" className='w-20 mx-auto'/>
                         <p>JavaScript</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <img src={PHP} alt="JavaScript" className='w-20 mx-auto'/>
+                        <p>PHP</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img src={Python} alt="JavaScript" className='w-20 mx-auto'/>
@@ -46,17 +53,13 @@ export const Skills = () => {
                         <p>NodeJS</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <img src={Laravel} alt="JavaScript" className='w-20 mx-auto'/>
+                        <p>Laravel</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img src={GitHub} alt="JavaScript" className='w-20 mx-auto'/>
                         <p>GitHub</p>
-                    </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img src={Bitbucket} alt="JavaScript" className='w-20 mx-auto'/>
-                        <p>Bitbucket</p>
-                    </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img src={Tailwind} alt="JavaScript" className='w-20 mx-auto'/>
-                        <p>Tailwind</p>
-                    </div>
+                    </div>                    
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img src={Azure} alt="JavaScript" className='w-20 mx-auto'/>
                         <p>Azure</p>
