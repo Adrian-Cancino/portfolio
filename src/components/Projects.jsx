@@ -31,7 +31,7 @@ export const Projects = () => {
                                 <a href="https://github.com/Adrian-Cancino/DataAnalysis/blob/main/R%20Projects/Nobel_Prize.ipynb" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code R</button>
                                 </a>
-                                <a href="https://youtu.be/QMhmB7W3q1A" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.youtube.com/watch?v=czWdGL71PGU" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Video Python</button>
                                 </a>
                             </div>
