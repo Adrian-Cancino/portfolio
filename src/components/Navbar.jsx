@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaBars, FaTimes, FaGithub, FaLinkedin ,FaYoutube } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
@@ -96,6 +96,12 @@ export const Navbar = () => {
                         GitHub <FaGithub size={30}/>
                     </a>
                 </li>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ff1919]'>
+                    <a className='flex justify-between items-center w-full text-gray-300'
+                    href="https://www.youtube.com/channel/UCByMzGC0YB9bscOHPFzxYGA" target="_blank" rel="noopener noreferrer">
+                        Yotube <FaYoutube size={30}/>
+                    </a>
+                </li>                
                 <li className='w-[260px] h-[60px] flex justify-between items-center ml-[-200px] hover:ml-[-10px] duration-300 bg-[#345750]'>
                     <p className='flex justify-between items-center w-full text-gray-300 text-xl'>
                         luis@cancino.net <HiOutlineMail size={30}/>

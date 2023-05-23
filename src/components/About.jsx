@@ -18,11 +18,11 @@ export const About = () => {
             <p></p>
             <p>I'm passionate about building applications that help people around me.
               I have experience working in startups, so I know what does it mean working
-              in a presure enviroment. If you need someone with experience working building cloud native apps,
-              or as a database administrator, please contact me.</p>
+              in a presure enviroment. If you need someone with experience working building cloud native apps, 
+              a database administrator or a data scientist, please contact me.</p>
           </div>
           <div className='hover:scale-110 duration-500'>
-              <img src={Selfie} alt="JavaScript" className='w-72 mx-auto'/>
+              <img src={Selfie} alt="JavaScript" className='w-60 mx-auto'/>
           </div>
         </div>
 

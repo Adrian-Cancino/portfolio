@@ -3,16 +3,14 @@ import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Node from '../assets/node.png';
 import GitHub from '../assets/github.png';
-import Tailwind from '../assets/tailwind.png';
 import AWS from '../assets/aws.png';
 import DIGITAL from '../assets/digitalocean.png';
 import Python from '../assets/python.png';
 import Typescript from '../assets/typescript.png';
 import Angular from '../assets/angular.png';
-import Bitbucket from '../assets/bitbucket.svg';
 import Azure from '../assets/azure.png';
-import PHP from '../assets/php.png';
-import Laravel from '../assets/laravel.png';
+import R from '../assets/R.jpg';
+import SQL from '../assets/sql.jpg';
 
 
 export const Skills = () => {
@@ -29,12 +27,16 @@ export const Skills = () => {
                         <p>JavaScript</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img src={PHP} alt="JavaScript" className='w-20 mx-auto'/>
-                        <p>PHP</p>
-                    </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img src={Python} alt="JavaScript" className='w-20 mx-auto'/>
                         <p>Python</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <img src={R} alt="R" className='w-20 mx-auto'/>
+                        <p>R</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <img src={SQL} alt="R" className='w-20 mx-auto'/>
+                        <p>SQL</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img src={Typescript} alt="JavaScript" className='w-20 mx-auto'/>
@@ -51,10 +53,6 @@ export const Skills = () => {
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img src={Node} alt="JavaScript" className='w-20 mx-auto'/>
                         <p>NodeJS</p>
-                    </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img src={Laravel} alt="JavaScript" className='w-20 mx-auto'/>
-                        <p>Laravel</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img src={GitHub} alt="JavaScript" className='w-20 mx-auto'/>
