@@ -34,6 +34,9 @@ export const Projects = () => {
                                 <a href="https://www.youtube.com/watch?v=czWdGL71PGU" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Video Python</button>
                                 </a>
+                                <a href="https://youtu.be/tVXclHSmYRY" target="_blank" rel="noopener noreferrer">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Video R</button>
+                                </a>
                             </div>
                         </div>
 
