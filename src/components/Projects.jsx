@@ -4,6 +4,9 @@ import Ad from '../assets/projects/ad.png';
 import Netflix from '../assets/projects/Netflix.png';
 import Mnist from '../assets/projects/mnist.png';
 import iris from '../assets/projects/iris.png';
+import docker from '../assets/projects/docker.jpg'
+import web1 from '../assets/projects/web1.jpg'
+import web2 from '../assets/projects/web2.jpg'
 
 export const Projects = () => {
   return (
@@ -77,6 +80,69 @@ export const Projects = () => {
                 </div>
 
                 
+
+            </div>
+
+            <div className='pb-2 mt-1'>
+                <p className='py-4'>// Web Development</p>
+            </div>
+
+            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+                
+                <div style={{backgroundImage: `url(${docker})`}}
+                    className='shadow-lg shadow-[#040c16] group container rounded-md 
+                        flex justify-center text-center items-center mx-auto content-div'>
+
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                Microservices Project
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href="https://github.com/Adrian-Cancino/microservicesProject" target="_blank" rel="noopener noreferrer">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                </a>
+                            </div>
+                        </div>
+
+                </div>
+
+                <div style={{backgroundImage: `url(${web1})`}}
+                    className='shadow-lg shadow-[#040c16] group container rounded-md 
+                        flex justify-center text-center items-center mx-auto content-div'>
+
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                Rest-Server with MongoDB
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href="https://github.com/Adrian-Cancino/restServerExpress/tree/main" target="_blank" rel="noopener noreferrer">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                </a>
+
+                                <a href="https://www.youtube.com/watch?v=CpqipLIwcrI" target="_blank" rel="noopener noreferrer">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Video</button>
+                                </a>
+                            </div>
+                        </div>
+
+                </div>
+
+                <div style={{backgroundImage: `url(${web2})`}}
+                    className='shadow-lg shadow-[#040c16] group container rounded-md 
+                        flex justify-center text-center items-center mx-auto content-div'>
+
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                MERN with MySQL
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href="https://github.com/Adrian-Cancino/MERN-Project" target="_blank" rel="noopener noreferrer">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                </a>
+                            </div>
+                        </div>
+
+                </div>
 
             </div>
 
